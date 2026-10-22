@@ -2,79 +2,112 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>My Resume</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Benjamin Titus — freelance web developer with a background in mechanical engineering, technical supervision, and customer service.">
+    <title>Benjamin Titus | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Benjamin Titus.</h1>
-      <img src="./Images/Benjamin-Resume-Photo.png" height="100" alt="Benjamin's photo."/>
-    
-    <h2>Summary</h2>
-      <p>I am hardworking and dedicated person with versatile Web Development skills.</p>
-    
-    <hr />
+    <main class="resume">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Web Developer</p>
+          <h1>Benjamin Titus</h1>
+          <p class="intro">I build clear, responsive websites and bring a practical, detail-focused approach shaped by years of technical and operations experience.</p>
+          <nav class="contact-links" aria-label="Contact links">
+            <a href="./public/contacts.html">Contact me</a>
+            <span aria-hidden="true">·</span>
+            <a href="mailto:benmuthangya@gmail.com">benmuthangya@gmail.com</a>
+            <span aria-hidden="true">·</span>
+            <span>Kenya</span>
+          </nav>
+        </div>
+        <img class="profile-photo" src="./images/Benjamin-Resume-Photo.png" alt="Portrait of Benjamin Titus" onerror="this.style.display='none'">
+      </header>
 
-    <h2>Education</h2>
-      <ul>
-        <li>Diplomma in Mechanical Engineering - Railways Training Institute (2006 - 2008)</li>
-      </ul>
-    
-    <hr />
+      <section aria-labelledby="about-heading">
+        <h2 id="about-heading">Profile</h2>
+        <p>I'm a dependable professional transitioning my technical problem-solving and project coordination experience into freelance web development. I focus on building user-friendly websites, communicating clearly, and delivering carefully tested work. I enjoy helping individuals and small businesses establish a polished presence online.</p>
+      </section>
 
-    <h2>Work Experience</h2>
-      <ul>
-        <li>
-          <h3>Maintenance Officer - Nyumbani Childrens Home.</h3>
-          August 2011 - July 2012
+      <section aria-labelledby="services-heading">
+        <h2 id="services-heading">Web development services</h2>
+        <ul class="tag-list">
+          <li>Responsive website development</li>
+          <li>HTML, CSS, Bootstrap, JavaScript &amp; React</li>
+          <li>Website updates and fixes</li>
+          <li>Clear client communication</li>
+          <li>Quality checks and documentation</li>
+        </ul>
+        <p class="muted">My background in technical supervision and project documentation supports a careful, organized approach to each client project.</p>
+      </section>
+
+      <section aria-labelledby="experience-heading">
+        <h2 id="experience-heading">Professional experience</h2>
+        <article class="entry">
+          <div class="entry-heading">
+            <h3>Senior Superintendent, Mechanical</h3>
+            <p class="date">November 2016 – Present</p>
+          </div>
+          <p class="organization">Government of Kenya</p>
           <ul>
-          <br />
-            <li>In-charge of repairs and Maintenance Department</li>
-            <li>Supervised and approved repair and maintenance works</li>
-            <li>Gave technical recommendations</li>
+            <li>Carry out technical inspections and supervise mechanical work.</li>
+            <li>Prepare documentation for proposed mechanical projects.</li>
+            <li>Apply careful review and practical problem-solving to technical work.</li>
           </ul>
-        </li> 
-      </ul>
-      <ul>
-        <li>
-          <h3>Farmer - Ben's Farm</h3>
-          November 2012 - Octomber 2016
+        </article>
+        <article class="entry">
+          <div class="entry-heading">
+            <h3>Farmer</h3>
+            <p class="date">November 2012 – October 2016</p>
+          </div>
+          <p class="organization">Ben's Farm</p>
           <ul>
-          <br />
-            <li>Overal in-charge of farm activities</li>
-            <li>Marketing and selling farm produce</li>
+            <li>Managed day-to-day farm activities.</li>
+            <li>Marketed and sold farm produce.</li>
           </ul>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <h3>Senior Superindentend Mechanical Government of Kenya</h3>
-          November 2016 - Present
+        </article>
+        <article class="entry">
+          <div class="entry-heading">
+            <h3>Maintenance Officer</h3>
+            <p class="date">August 2011 – July 2012</p>
+          </div>
+          <p class="organization">Nyumbani Children's Home</p>
           <ul>
-          <br />
-            <li>Technical Inspections and Supervisions</li>
-            <li>Documentation of proposed Mechanical projects</li>
+            <li>Led the repairs and maintenance department.</li>
+            <li>Supervised and reviewed repair and maintenance work.</li>
+            <li>Provided technical recommendations.</li>
           </ul>
-        </li>
-      </ul>
+        </article>
+      </section>
 
-    <hr />
+      <section aria-labelledby="education-heading">
+        <h2 id="education-heading">Education</h2>
+        <article class="entry">
+          <div class="entry-heading">
+            <h3>Diploma in Mechanical Engineering</h3>
+            <p class="date">2006 – 2008</p>
+          </div>
+          <p class="organization">Railways Training Institute</p>
+        </article>
+      </section>
 
-    <h2>Skills</h2>
-      <ul>
-        <li>Web Development</li>
-        <li>Exellent Customer Service</li>
-        <li>Computer Applications</li>
-      </ul>
-    
-    <hr />
+      <section aria-labelledby="strengths-heading">
+        <h2 id="strengths-heading">Additional strengths</h2>
+        <ul class="tag-list">
+          <li>Technical supervision</li>
+          <li>Project documentation</li>
+          <li>Customer service</li>
+          <li>Computer applications</li>
+          <li>Reliable and detail-oriented</li>
+        </ul>
+      </section>
 
-    <h2>Other</h2>
-      <ul>
-        <li><a href="./public/hobbies.html">My Hobbies</a></li>
-        <li><a href="./public/contact.html">Contact Me</a></li>
-      </ul>
-    
-    <footer>
-      <p>&copy; Benjamin Titus. All rights reserved.</p>
-  
-  </body>   
+      <footer>
+        <a href="./public/contacts.html">Get in touch</a>
+        <a href="./public/hobbies.html">More about me</a>
+        <span>© <span id="year">2026</span> Benjamin Titus</span>
+      </footer>
+    </main>
+  </body>
 </html>
